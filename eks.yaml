@@ -1,0 +1,12 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: basic-cluster
+  region: us-east-1
+
+managedNodeGroups:
+  - name: basic-cluster
+    instanceType: m5.large
+    desiredCapacity: 2
+    spot: true
