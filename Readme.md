@@ -47,3 +47,19 @@ kubectl version --client
 
 **AWS Confugure**
 * configure with access & secret key or with IAM roles
+
+
+**Namespace-Setup**
+
+```
+sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
+```
+
+```
+sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+```
+
+* Give required ns-name 
+```
+kubens <ns-name>
+```
