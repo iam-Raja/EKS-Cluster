@@ -21,6 +21,7 @@ eksctl version
 ```
 eksctl create cluster --config-file=eks.yaml
 ```
+* Deleting cluster
 ```
 eksctl delete cluster --config-file=eks.yaml
 ```
