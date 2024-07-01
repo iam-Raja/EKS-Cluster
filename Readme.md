@@ -17,6 +17,11 @@ sudo mv /tmp/eksctl /usr/local/bin
 ```
 eksctl version
 ```
+* create a yaml file and login workstation & clone yaml
+```
+eksctl create cluster --config-file=eks.yaml
+```
+
 **Kubectl Setup:**
 * Manage containers inside cluster
 
