@@ -21,6 +21,9 @@ eksctl version
 ```
 eksctl create cluster --config-file=eks.yaml
 ```
+```
+eksctl delete cluster --config-file=eks.yaml
+```
 
 **Kubectl Setup:**
 * Manage containers inside cluster
