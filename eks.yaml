@@ -8,5 +8,5 @@ metadata:
 managedNodeGroups:
   - name: basic-cluster
     instanceType: m5.large
-    desiredCapacity: 1
+    desiredCapacity: 2
     spot: true
