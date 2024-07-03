@@ -17,14 +17,7 @@ sudo mv /tmp/eksctl /usr/local/bin
 ```
 eksctl version
 ```
-* create a yaml file and login workstation & clone yaml
-```
-eksctl create cluster --config-file=eks.yaml
-```
-* Deleting cluster
-```
-eksctl delete cluster --config-file=eks.yaml
-```
+
 
 **Kubectl Setup:**
 * Manage containers inside cluster
@@ -47,6 +40,23 @@ kubectl version --client
 
 **AWS Confugure**
 * configure with access & secret key or with IAM roles
+* Provide access, secret key and region name
+
+```
+aws configure
+```
+
+**EKS Cluster Creation**
+
+* create a yaml file, clone yaml & switch dir
+```
+eksctl create cluster --config-file=eks.yaml
+```
+* Deleting cluster
+```
+eksctl delete cluster --config-file=eks.yaml
+```
+
 
 
 **Namespace-Setup**
