@@ -60,6 +60,7 @@ eksctl delete cluster --config-file=eks.yaml
 
 
 **Namespace-Setup**
+* Setup namespace run below on root dir
 
 ```
 sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
