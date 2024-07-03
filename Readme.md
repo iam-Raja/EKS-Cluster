@@ -19,7 +19,7 @@ eksctl version
 ```
 
 
-**Kubectl Setup:**
+**Kubectl Installation**
 * Manage containers inside cluster
 
 ```
