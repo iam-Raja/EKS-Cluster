@@ -74,3 +74,11 @@ sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
 ```
 kubens <ns-name>
 ```
+
+
+**Metric-server-set up**
+```
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
+
+
